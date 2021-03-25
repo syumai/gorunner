@@ -5,11 +5,9 @@
 ## Usage
 
 ```console
-$ cat > example.go
-package main; func main() { println("Hello, world!") }
 $ git clone https://github.com/syumai/gorunner
 $ cd gorunner
-$ cat ../example.go | ./run.sh
+$ cat ./example/hello.go | ./run.sh
 Hello, world!
 ```
 

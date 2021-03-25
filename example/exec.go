@@ -1,3 +1,4 @@
+// this script fails execution
 package main
 
 import (

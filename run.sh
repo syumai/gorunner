@@ -6,5 +6,7 @@ if [ $? = 1 ]; then
   exit 1
 fi
 node index.js
+RESULT=$?
 
 rm main.go main.wasm
+exit $RESULT
